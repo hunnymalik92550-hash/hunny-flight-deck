@@ -59,12 +59,12 @@ function UAV({ reduced }: { reduced: boolean }) {
         {body}
       </mesh>
       {/* rotor booms */}
-      {[
+      {([
         [0.55, 1.0],
         [0.55, -1.0],
         [-0.55, 1.0],
         [-0.55, -1.0],
-      ].map(([x, z]) => (
+      ] as [number, number][]).map(([x, z]) => (
         <group key={`${x}${z}`} position={[x, 0.08, z]}>
           <mesh>
             <cylinderGeometry args={[0.05, 0.05, 0.22, 10]} />
@@ -161,11 +161,11 @@ function Particles({ count = 320, reduced }: { count?: number; reduced: boolean 
 function Markers() {
   return (
     <group>
-      {[
+      {([
         [-3.2, 1.3, -1],
         [3.4, -1.2, -1.6],
         [2.4, 1.8, -2.4],
-      ].map(([x, y, z]) => (
+      ] as [number, number, number][]).map(([x, y, z]) => (
         <mesh key={`${x}${y}`} position={[x, y, z]} rotation={[0, 0, Math.PI / 4]}>
           <ringGeometry args={[0.16, 0.19, 4]} />
           <meshBasicMaterial color="#38c8e0" transparent opacity={0.45} side={THREE.DoubleSide} />
