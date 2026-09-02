@@ -22,7 +22,7 @@ function UAV({ reduced }: { reduced: boolean }) {
   const accent = <meshStandardMaterial color="#38c8e0" emissive="#38c8e0" emissiveIntensity={1.6} />;
 
   return (
-    <group ref={group} rotation={[0.15, 0.6, 0]} scale={0.95}>
+    <group ref={group} position={[1.7, -0.9, 0]} rotation={[0.15, 0.6, 0]} scale={0.8}>
       {/* fuselage */}
       <mesh castShadow rotation={[0, 0, Math.PI / 2]}>
         <capsuleGeometry args={[0.22, 1.5, 6, 16]} />

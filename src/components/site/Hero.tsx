@@ -140,10 +140,10 @@ export function Hero() {
               ))}
             </ul>
           </div>
-          <span className="absolute -left-4 top-10 hidden font-mono text-[0.6rem] tracking-[0.2em] text-muted-foreground uppercase lg:block">
+          <span className="absolute -left-20 top-10 hidden font-mono text-[0.6rem] tracking-[0.2em] text-muted-foreground uppercase xl:block">
             AIRFRAME
           </span>
-          <span className="absolute -right-6 bottom-24 hidden font-mono text-[0.6rem] tracking-[0.2em] text-muted-foreground uppercase lg:block">
+          <span className="absolute -right-20 bottom-24 hidden font-mono text-[0.6rem] tracking-[0.2em] text-muted-foreground uppercase xl:block">
             AVIONICS
           </span>
         </div>
