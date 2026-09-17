@@ -1,5 +1,5 @@
 import profileAsset from "@/assets/hunny-profile.jpg.asset.json";
-import resumeAsset from "@/assets/resume.docx.asset.json";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 
 export const PROFILE_IMAGE = profileAsset.url;
 export const RESUME_URL = resumeAsset.url;
@@ -101,19 +101,15 @@ export const PROJECTS = [
 ];
 
 export const EXPERIENCE = {
-  role: "Python Development Intern",
-  company: "S O Infotech (P) Ltd. via DUCAT",
+  role: "Intern",
+  company: "S O Infotech (P) Ltd.",
   location: "Noida, Uttar Pradesh",
-  date: "June 2026",
+  date: "01 Jun – 30 Jun",
+  mentor: "Guided by Mr. Kunal, Senior Python Developer",
   points: [
-    "One-month internship under a Senior Python Developer",
-    "Built and maintained a website",
-    "Worked with backend systems and data flow",
-    "Worked on core application logic",
-    "Developed automation scripts",
-    "Improved problem-solving and self-learning abilities",
-    "Received strong feedback",
-    "Certificate of Internship Completion",
+    "Worked as an Intern for one month, handling tasks and responsibilities assigned as part of the role.",
+    "Remained regular, interactive, and proactive throughout the internship, demonstrating strong tenacity to learn new concepts.",
+    "Built a fruitful working relationship with the organization, earning a formal Certificate of Internship Completion for dedication and reliability.",
   ],
 };
 
