@@ -26,6 +26,7 @@ export function Experience() {
           <p className="mt-2 font-mono text-[0.68rem] tracking-[0.14em] text-muted-foreground uppercase">
             {EXPERIENCE.company} · {EXPERIENCE.location} · {EXPERIENCE.date}
           </p>
+          <p className="mt-2 text-sm text-primary">{EXPERIENCE.mentor}</p>
           <ul className="mt-5 grid gap-2.5 sm:grid-cols-2">
             {EXPERIENCE.points.map((p) => (
               <li key={p} className="flex gap-2.5 text-sm text-foreground/85">
